@@ -1,11 +1,157 @@
-h1 {
-    font-family: comic-sans;
-    font-size: 30px;
-}
 body {
-    font-family: comic-sans;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
-p {
-    font-family: 'roboto';
-    font-size: 50px;
+
+header {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: block;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+footer {
+    padding: 10px;
+}
+
+h1 {
+    margin: 10px;
+    display: left;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.nav-list {
+    margin-right: 10px;
+    justify-content: left;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+    display: flex;
+    text-align: left;
+    margin: 10px;
+    justify-content: left;
+    flex-direction: column;
+}
+
+a.one:link {color:#000;}
+a.one:hover {color:#ff5c0f;}
+a.one {text-decoration: none;}
+
+a.two:link {color:#000;}
+a.two:hover {color:#ff5c0f;}
+a.two {text-decoration: none;}
+
+a.three:link {color:#000;}
+a.three:hover {color:#ff5c0f;}
+a.three {text-decoration: none;}
+
+a.four:link {color:#000;}
+a.four:hover {color:#ff5c0f;}
+a.four {text-decoration: none;}
+
+.button1 {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #20a8b4;
+    color: #fff;
+    width: 100%;
+    padding-left: 10px; 
+    border: none;
+    text-align: left;
+}
+
+.button1:hover {
+    background-color: #ff5c0f;
+}
+
+.button2 {
+    background-color: #20a8b4;
+    padding: 12px;
+    border-radius: 10px;
+    color: #fff;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    text-align: left;
+}
+
+.button2:hover {
+    background-color: #ff5c0f;
+}
+
+img {
+    display: none;
+}
+
+.Learn-to {
+    color:#20a8b4;
+}
+
+.Code {
+    color:#ff5c0f;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        float: right;
+    }
+
+    button1 {
+        display: flex;
+        width: 100px;
+        border: none;
+    }
+    button2 {
+        display: flex;
+        width: 100px;
+        border: none;
+    }
+    
+    main {
+        display: flex;
+        
+    }
+    nav {
+        margin-right: 10px;
+        margin-bottom: 0;
+        display: flex;
+    }
+    img {
+        display: flex;
+        float: right;
+        align: center;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    h1 {
+        padding: 10px;
+    }
+    .text-box {
+        display: flex;
+    }
+
 }
